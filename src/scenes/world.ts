@@ -7,6 +7,6 @@ export const World: Phaser.Types.Scenes.CreateSceneFromObjectConfig = {
   },
 
   create(this: any) {
-    this.add.image(window.innerWidth / 2, window.innerHeight / 2, "sky");
+    // this.add.image(window.innerWidth / 2, window.innerHeight / 2, "sky");
   },
 };

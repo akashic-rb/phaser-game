@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import { World } from "../scenes/world";
+import Char from "../scenes/char";
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -18,7 +18,7 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
       },
     },
   },
-  scene: [World],
+  scene: [Char],
 };
 
 export default new Phaser.Game(gameConfig);

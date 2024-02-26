@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./config/game";
 
 export default function App() {
-  return <div id="phaser-container" />;
+  return <div id="phaser-container" key="phaser" />;
 }
